@@ -1,0 +1,44 @@
+header {
+ border-radius: 4px;
+ background-color: #f46455;
+ border-radius: 5%;
+ margin: 4px;
+ padding: 14px 25px;
+}
+nav {
+ text-align: center; 
+}
+nav a:hover, a:active {
+ background-color: #ffffff;
+}
+nav .active {
+ color: #006756;
+}
+h1, h2 {
+ text-transform: uppercase;
+ font-family: Helvetica;
+}
+h1 {
+ color: #FFFFFF;
+ text-align: center;
+}
+h2 {
+ color: #ffffff;
+}
+a {
+ background-color: #C6C222;
+ border-radius: 55%;
+ magin: 4px;
+ padding: 18px 25px;
+ color: #000000;
+ text-align: center;
+}
+section {
+ background-color: #254635;
+ border-radius: 5%;
+ margin: 4px;
+ padding: 14px 25px; 
+}
+img {
+ display: none;
+}

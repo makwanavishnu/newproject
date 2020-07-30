@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sign Up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+  <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <link rel="stylesheet" type="text/css" href="a2.css">
+</head>
+
+<body>
+  <div class="container d-flex align-items-center justify-content-center text-center">
+    <form action="" class="needs-validation col-12" id="signup" onsubmit="return "
+      oninput='up2.setCustomValidity(up2.value != up.value ? "Passwords do not match." : "")' novalidate>
+      <p>
+        <h4>Create a new account</h4>
+      </p>
+      <div class="form-group username">
+        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
+        <div class="invalid-feedback">Please enter a valid Email</div>
+      </div>
+      <div class="form-group username">
+        <input type="text" name="username" id="username" class="form-control" placeholder="Username" required>
+        <div class="invalid-feedback">Please enter a valid Username</div>
+      </div>
+      <div class="form-group password">
+        <input name="up" type="password" name="password" id="password" class="form-control" placeholder="Password"
+          required>
+        <div class="invalid-feedback">Please eneter a valid Password</div>
+      </div>
+      <div class="form-group password">
+        <input name="up2" type="password" name="cnfrm-password" id="cnfrm-password" class="form-control"
+          placeholder="Confirm Password">
+        <div id="inv" class="invalid-feedback">Password and Confirm Password should match</div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label for="remember">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-custom">Sign Up</button>
+    </form>
+  </div>
+  <script src="samepass.js">
+  </script>
+</body>
+
+</html>
